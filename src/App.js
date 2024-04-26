@@ -220,12 +220,23 @@ function App() {
   </div>
 </section>
 
-<footer className="text-gray-600 body-font">
-  <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-2 mx-auto">
+    <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+     
+      <p class="leading-relaxed text-lg">
+        Thank you for visiting this page. I hope that you like my ideas💡
+        </p>
+      </div>
+  </div>
+</section>
+
+<footer className="text-gray-800 body-font bg-slate-300">
+  <div className="container px-5 text-2xl mx-auto flex items-center sm:flex-row flex-col">
     Created by Nijanshu Singh
-    <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">For
+    <p className="text-md text-gray-700 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">For
       <a target='_blank' href="https://oneplus.com" className="text-gray-600 ml-1" rel="noopener noreferrer">
-        <img src="https://1000logos.net/wp-content/uploads/2022/11/OnePlus-Logo.png" className='inline' width={100} alt="" />
+        <img src="https://1000logos.net/wp-content/uploads/2022/11/OnePlus-Logo.png" className='inline' width={150} alt="" />
       </a>
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
